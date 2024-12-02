@@ -1,4 +1,7 @@
 {
+  "update.mode": "none",
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontSize": 20,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -21,7 +24,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "right",
-  "editor.fontFamily": "IBMPlexMono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "IBMPlexMono, JetBrainsMono, Menlo, Monaco, 'Courier New', monospace",
   "animations.Install-Method": "Apc Customize UI++",
   "apc.imports": [
     "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
@@ -31,7 +34,6 @@
   "window.zoomPerWindow": false,
   "window.zoomLevel": 0.4,
   "editor.renderLineHighlight": "none",
-  "editor.cursorStyle": "underline",
   "editor.find.cursorMoveOnType": false,
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
@@ -40,5 +42,41 @@
   "breadcrumbs.enabled": false,
   "terminal.integrated.cursorWidth": 0,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "block"
+  "terminal.integrated.cursorStyleInactive": "block",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "opacity": 0.95
+  },
+  "material-icon-theme.hidesExplorerArrows": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#244543",
+    "editor.selectionBackground": "#676444",
+    "list.activeSelectionBackground": "#394648",
+    "list.inactiveSelectionBackground": "#364650",
+    "list.hoverBackground": "#1f6c70"
+  },
+  "editor.renderWhitespace": "none",
+  // "editor.hover.enabled": false
+  "explorer.confirmDragAndDrop": false,
+  "window.titleBarStyle": "native",
+  "apc.font.family": "",
+  "apc.sidebar.titlebar": {
+    "fontSize": 17
+  },
+  "apc.listRow": {
+    "lists": ["quick-input-list", "explorer-folders-view", "results"],
+    "height": 36,
+    "fontSize": 19
+  },
+  "apc.stylesheet": {
+    ".filematch .monaco-icon-label:before": "padding-top: 15px",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #1fffe7 22%, #4f60b8 48%, #50d9e3 73%)",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important"
+  }
 }
